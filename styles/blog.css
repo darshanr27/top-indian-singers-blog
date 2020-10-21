@@ -102,7 +102,9 @@ iframe {
     color: #10d892;
 }
 
-video {
-    height: 300px;
-    width: 300px;
+.content-link {
+    color: #011b12;
+}
+.content-link:hover {
+    color: #115f45;
 }

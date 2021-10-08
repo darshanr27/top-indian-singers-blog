@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1379px) {
+    /* navbar */
+    .menu-block {
+        padding: 0px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 20px;
+        height: auto;
+    }
+    #menu-title {
+        /* padding: 5px 3px;
+        letter-spacing: 5px;
+        font-size: 10px; */
+        display: none;
+    }
+    .nav-block {
+        height: auto;
+    }
+    .menu-item li {
+        display: inline;
+        padding: 5px 3px;
+        font-weight: 0;
+        font-size: 10px;
+    }
+    /* gallery */
+    .content-block-grid {
+        display: block;
+        grid-gap: 20px;
+    }
+    .content-block-grid img {
+        height: auto;
+        width: 100%;
+    }
+    .iframe {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+}

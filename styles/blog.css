@@ -23,7 +23,7 @@ body {
     padding-top: 80px;
     padding-bottom: 10px;
     font-size: 30px;
-    color: yellow;
+    color: palegoldenrod;
 }
 
 .bio-table {
@@ -33,7 +33,7 @@ body {
     border: 1px solid #a2a9b1;
     background-color: white;
     padding: 10px;
-    color: green;
+    color: oldlace;
 }
 
 tr {
@@ -49,7 +49,7 @@ td {
     border: 1px solid #a2a9b1;
     background-color: white;
     padding: 30px;
-    color: green;
+    color: oldlace;
     font-size: 20px;
     line-height: 30px;
 }

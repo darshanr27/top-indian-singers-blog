@@ -1,22 +1,26 @@
 /* Importing the google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
-
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     background: #1f574f;
-
 }
+
 .nav-block {
+    position: fixed;
     padding: 0;
     margin: 0;
-    background-color: #f9f9f9;
-    height: 100px;
+    background-color: yellow;
+    height: 80px;
     width: 100%;
+    z-index: 80;
 }
 
 .menu-block {
@@ -25,6 +29,7 @@ body {
     font-weight: 1000px;
     height: 100px;
 }
+
 #menu-title {
     padding: 10px 0px 0px 40px;
     font-family: 'MuseoModerno', cursive;
@@ -33,10 +38,10 @@ body {
     color: rgba(20, 128, 61, 0.911);
     display: inline;
 }
+
 .menu-item {
     list-style: none;
     float: right;
-    text-align: center;
     padding: 10px;
 }
 
@@ -59,16 +64,16 @@ body {
     width: 100%;
     margin-top: 20px;
     overflow: hidden;
+    margin-bottom: -50px;
 }
 
 .header-text {
     position: absolute;
-    top: 45%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    top: 250px;
+    left: 50px;
     font-family: 'Sansita Swashed', cursive;
     font-size: 30px;
-  }
+}
 
 .header-text h1 {
     background: -webkit-linear-gradient(rgb(53, 141, 115), rgb(28, 66, 56));
@@ -81,7 +86,7 @@ body {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto auto auto;
-    padding: 20px;
+    padding: 80px 25px;
     margin-top: 50px;
 }
 
@@ -104,7 +109,6 @@ body {
     color: rgb(4, 56, 56);
     padding: 10px 10px;
     border-top: solid 2px rgba(28, 119, 48, 0.425);
-
 }
 
 .grid-item:hover {
@@ -124,11 +128,12 @@ a {
     top: 60%;
     text-align: center;
 }
+
 .grid-item:hover .read-block {
     opacity: 1;
 }
 
-.read-block:hover h4{
+.read-block:hover h4 {
     background-color: #0b9440;
     transition: 0.7s ease-in-out;
 }
@@ -161,5 +166,4 @@ a {
 
 .footer-block p a:hover {
     color: rgb(17, 110, 64);
-
 }

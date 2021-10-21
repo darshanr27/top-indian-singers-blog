@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1379px) {
+@media only screen and (max-width: 700px) {
     /* navbar */
     .menu-block {
         padding: 0px;
@@ -19,7 +19,7 @@
         display: inline;
         padding: 5px 3px;
         font-weight: 0;
-        font-size: 10px;
+        font-size: 12px;
     }
     /* gallery */
     .content-block-grid {
@@ -30,7 +30,7 @@
         height: auto;
         width: 100%;
     }
-    .iframe {
+    iframe {
         width: 100%;
         height: auto;
         padding: 30px;

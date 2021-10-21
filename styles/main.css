@@ -17,7 +17,7 @@ body {
     position: fixed;
     padding: 0;
     margin: 0;
-    background-color: yellow;
+    background-color: #f9f9f9;
     height: 80px;
     width: 100%;
     z-index: 80;
@@ -31,11 +31,11 @@ body {
 }
 
 #menu-title {
-    padding: 10px 0px 0px 40px;
+    padding: 10px;
     font-family: 'MuseoModerno', cursive;
     letter-spacing: 10px;
     font-size: 30px;
-    color: rgba(20, 128, 61, 0.911);
+    color: rgba(13, 100, 46, 0.911);
     display: inline;
 }
 
@@ -166,4 +166,14 @@ a {
 
 .footer-block p a:hover {
     color: rgb(17, 110, 64);
+}
+
+/* resources footer */
+
+.footer-bottom {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }

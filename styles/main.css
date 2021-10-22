@@ -167,3 +167,13 @@ a {
 .footer-block p a:hover {
     color: rgb(17, 110, 64);
 }
+
+/* resources footer */
+
+.footer-bottom {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
